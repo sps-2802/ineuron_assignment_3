@@ -20,6 +20,7 @@ where Technology in ('Data Structures',
                      'Tableau',
                      'python',
                      'sql');
+group by id having count(distinct technology)=4;
 -------------------------------------------------------------------------------------------------------                     
 #2. Query to return ids of product info that has 0 likes
 #creating product info table and loading the data into table
